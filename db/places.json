@@ -1,0 +1,69 @@
+{
+    "places":[
+        {
+            "id": "place1",
+            "cityName": "San Diego",
+            "cityState": "California",
+            "cityImage": "https://www.acg.org/sites/files/styles/masthead_1440/public/acg-san-diego-2880x1200.jpg?itok=S6EumAjl",
+            "favoriteRestaurant": "Sushi on the Rock",
+            "favoriteBar":"The Duck Dive",
+            "favoriteHotel": "Hotel Del Coronado",
+            "favoriteTouristAttraction": "Sea World"
+        },
+        {
+            "id": "place2",
+            "cityName": "Denver",
+            "cityState": "Colorado",
+            "cityImage": "http://www.cityclubofdenver.org/resources/Pictures/AdobeStock_74868311.jpeg",
+            "favoriteRestaurant": "Acorn",
+            "favoriteBar":"Williams & Graham",
+            "favoriteHotel": "The Curtis Hotel",
+            "favoriteTouristAttraction": "Red Rocks"
+        },
+        {
+            "id": "place3",
+            "cityName": "Nashville",
+            "cityState": "Tennessee",
+            "cityImage": "https://www.tripit.com/blog/wp-content/uploads/2017/04/iStock-588588926.jpg",
+            "favoriteRestaurant": "Fifth and Taylor",
+            "favoriteBar":"Fox",
+            "favoriteHotel": "Thompson Hotel",
+            "favoriteTouristAttraction": "no comment"
+
+        },
+        {
+            "id": "place4",
+            "cityName": "New York City",
+            "cityState": "New York" ,
+            "cityImage": "https://media.timeout.com/images/103444978/image.jpg",
+            "favoriteRestaurant": "Nom Wah Tea Parlor",
+            "favoriteBar":"230 Fifth Rooftop Bar",
+            "favoriteHotel": "The Plaza",
+            "favoriteTouristAttraction": "Broadway"
+        },
+        {
+            "id": "place5",
+            "cityName": "Atlanta",
+            "cityState": "Georgia",
+            "cityImage": "https://bitcoinist.com/wp-content/uploads/2018/09/shutterstock_1031967217-e1536385789945.jpg",
+            "favoriteRestaurant": "The Optimist",
+            "favoriteBar":"The Porter Beer Bar",
+            "favoriteHotel": "The Ritz-Carlton, Atlanta",
+            "favoriteTouristAttraction": "CNN Tour"
+        }
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

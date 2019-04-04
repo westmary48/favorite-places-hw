@@ -8,7 +8,8 @@
             "favoriteRestaurant": "Sushi on the Rock",
             "favoriteBar":"The Duck Dive",
             "favoriteHotel": "Hotel Del Coronado",
-            "favoriteTouristAttraction": "Sea World"
+            "favoriteTouristAttraction": "Sea World",
+            "price" : "high"
         },
         {
             "id": "place2",
@@ -18,7 +19,8 @@
             "favoriteRestaurant": "Acorn",
             "favoriteBar":"Williams & Graham",
             "favoriteHotel": "The Curtis Hotel",
-            "favoriteTouristAttraction": "Red Rocks"
+            "favoriteTouristAttraction": "Red Rocks",
+            "price": "medium"
         },
         {
             "id": "place3",
@@ -28,7 +30,8 @@
             "favoriteRestaurant": "Fifth and Taylor",
             "favoriteBar":"Fox",
             "favoriteHotel": "Thompson Hotel",
-            "favoriteTouristAttraction": "no comment"
+            "favoriteTouristAttraction": "no comment",
+            "price": "low"
 
         },
         {
@@ -39,7 +42,9 @@
             "favoriteRestaurant": "Nom Wah Tea Parlor",
             "favoriteBar":"230 Fifth Rooftop Bar",
             "favoriteHotel": "The Plaza",
-            "favoriteTouristAttraction": "Broadway"
+            "favoriteTouristAttraction": "Broadway",
+            "price": "high"
+
         },
         {
             "id": "place5",
@@ -49,7 +54,8 @@
             "favoriteRestaurant": "The Optimist",
             "favoriteBar":"The Porter Beer Bar",
             "favoriteHotel": "The Ritz-Carlton, Atlanta",
-            "favoriteTouristAttraction": "CNN Tour"
+            "favoriteTouristAttraction": "CNN Tour",
+            "price": "medium"
         }
     ]
 }

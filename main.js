@@ -10,7 +10,6 @@ const domStringBuilder = (arrayToPrint) => {
     let domString = '';
     arrayToPrint.forEach((place) => {
         domString += `<div class = place-card">`
-        domString += `<h3>${place.id}</h3>`
         domString += `<h4>${place.cityName}</h4>`
         domString += `<h4>${place.cityState}</h4>`
         domString += `<img class= "city-img" src= ${place.cityImage}>`
@@ -22,6 +21,29 @@ const domStringBuilder = (arrayToPrint) => {
     })
 
     printToDom('places-container', domString);
+}
+
+const buttonClick = (e) => {
+    const buttonId = e.target.id;
+    const selectedPlaces = [];
+    places.forEach((cities) => {
+
+         if ( cities.price === buttonId) {
+             selectedPlaces.push(cities);
+        }
+    });
+        if(buttonId === 'all'){
+        domStringBuilder(places);
+        } else {
+        domStringBuilder(selectedPlaces);
+}
+};
+
+const buttonEvents = () => {
+    document.getElementById('low').addEventListener('click', buttonClick);
+    document.getElementById('medium').addEventListener('click', buttonClick);
+    document.getElementById('high').addEventListener('click', buttonClick);
+    document.getElementById('all').addEventListener('click', buttonClick);
 }
 
 //call back function
@@ -53,6 +75,7 @@ const getCitiesData = () => {
 
 const init = () => {
     getCitiesData();
+    buttonEvents(places);
 }
 
 init();

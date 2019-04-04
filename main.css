@@ -1,5 +1,5 @@
 body {
-    background-color: blue;
+    background-color:blanchedalmond;
 }
 
 .placesDiv {
@@ -14,7 +14,7 @@ body {
     text-align: center;
     width: 30%;
     box-shadow:5px 5px 1px;
-    border: 1px solid gray;
+    border: 1px solid black;
     margin-right: 40px;
     margin-top: 33px;
     background-color:#F5F5F5;

@@ -14,7 +14,7 @@ $npm install -g http-server
 ```
 
 ## Running
-Browse to sorting-hat directory and run http server
+Browse to favorite-places-hw directory and run http server
 
 ## Description
 

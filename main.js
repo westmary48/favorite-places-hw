@@ -9,7 +9,7 @@ const printToDom = (divId, textToPrint) => {
 const domStringBuilder = (arrayToPrint) => {
     let domString = '';
     arrayToPrint.forEach((place) => {
-        domString += `<div class = place-card">`
+        domString += `<div class = "place-card">`
         domString += `<h4>${place.cityName}</h4>`
         domString += `<h4>${place.cityState}</h4>`
         domString += `<img class= "city-img" src= ${place.cityImage}>`

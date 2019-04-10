@@ -33,4 +33,4 @@ Your site should consist of a bunch of bootstrap cards. Each card should be a ci
 7. JSON
 
 ## Screenshot
-![alt text]()
+![alt text](https://raw.githubusercontent.com/westmary48/favorite-places-hw/master/images/image.png)
